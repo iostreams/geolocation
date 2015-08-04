@@ -1,0 +1,8 @@
+html.noscript .js,
+html.js .noscript {
+    display: none;
+}
+
+#msg {
+    font-style: italic;
+}

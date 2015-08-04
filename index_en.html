@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="noscript" lang="en">
+    <head>
+        <title>Geolocation in JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="assets/js/en.js" type="text/javascript"></script>
+        <script src="assets/js/geolocation.js" type="text/javascript"></script>
+        <link href="assets/css/geolocation.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1>The geographical coordinates (WGS 84 reference system)</h1>
+        <p id="msg"><span class="noscript">Please enable JavaScript in your browser</span></p>
+
+        <dl class="js">
+            <dt>latitude:</dt>
+            <dd id="latitude"></dd>
+            <dt>longitude:</dt>
+            <dd id="longitude"></dd>
+            <dt>accuracy of position:</dt>
+            <dd id="coordsAccuracy"></dd>
+            <dt>altitude above the mean sea level:</dt>
+            <dd id="altitude"></dd>
+            <dt>altitude accuracy:</dt>
+            <dd id="altitudeAccuracy"></dd>
+        </dl>
+        <p class="js"><button type="button" id="button">Refresh my location</button></p>
+        <p id="map"></p>
+    </body>
+</html>
